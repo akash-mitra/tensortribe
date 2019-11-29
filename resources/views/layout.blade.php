@@ -9,37 +9,43 @@
 	<meta name="description" content="Official Homepage of TensorTribe, LLP.">
 	<meta name="keywords" content="tensortribe, webtheory, folioline">
 	
-    
-	<!-- <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-	<link rel="manifest" href="../site.webmanifest"> -->
-	<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+	<!-- favicons -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+	
+	<!-- <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5"> -->
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#3b7977">
 
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.tailwindtoolbox.com/">
-	<meta property="og:title" content="Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS">
-	<meta property="og:description" content="Free open source Tailwind CSS starter Templates and Components to get you started quickly to creating websites in Tailwind CSS!">
-	<meta property="og:image" content="https://www.tailwindtoolbox.com/social.png">
+	<meta property="og:url" content="https://tensortribe.com/">
+	<meta property="og:title" content="Official Homepage of TensorTribe, LLP.">
+	<meta property="og:description" content="Company description, contact page and Product details for TensorTribe, LLP.">
+	<meta property="og:image" content="https://tensortribe.com/social.png">
 
 	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://www.tailwindtoolbox.com/">
-	<meta property="twitter:title" content="Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS">
-	<meta property="twitter:description" content="Free open source Tailwind CSS starter Templates and Components to get you started quickly to creating websites in Tailwind CSS!">
-	<meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png">
-
-
-	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&text=TensorTribe" rel="stylesheet"> 
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@tensorsky">
+	<meta property="twitter:url" content="https://tensortribe.com/">
+	<meta property="twitter:title" content="Official Homepage of TensorTribe, LLP.">
+	<meta property="twitter:description" content="Company description, contact page and Product details for TensorTribe, LLP.">
+	<meta property="twitter:image" content="https://tensortribe.com/social.png">
     
-
+	<!-- css -->
 	<link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-	<!--Replace with your tailwind.css once created-->
-
+	
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&text=TensorTribe" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
 
 	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
@@ -93,7 +99,7 @@
 		</div>
 	</div>
 	
-	<!-- <hr class="border-b border-gray-100 opacity-25 my-0 py-0" /> -->
+	
 </nav>
 
 
@@ -113,7 +119,7 @@
 
         
     </div>
-    <p class="w-full text-center font-serif text-purple-800 text-3xl mb-2"> TensorTribe</p>
+    <p class="w-full text-center font-serif text-purple-800 text-3xl mb-2">TensorTribe</p>
 
     <ul class="flex list-reset justify-center mb-4">
         <li class="mt-2 inline-block mx-6">
@@ -124,7 +130,7 @@
         </li>
 
         <li class="mt-2 inline-block mx-6">
-            <a href="/sitemap" class="no-underline hover:underline text-purple-700 hover:text-orange-500">Sitemap</a>
+            <a href="/sitemap.xml" class="no-underline hover:underline text-purple-700 hover:text-orange-500">Sitemap</a>
         </li>
     </ul>
 

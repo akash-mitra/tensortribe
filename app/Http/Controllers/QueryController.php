@@ -11,7 +11,7 @@ class QueryController extends Controller
     {
 
         $request->validate([
-            'email' => 'required|email:rfc,dns',
+            'email' => 'required|email:rfc',
             'query' => 'required|max:500'
         ]);
 
